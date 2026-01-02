@@ -1,0 +1,16 @@
+input, button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  background: #22c55e;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
