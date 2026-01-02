@@ -100,7 +100,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const res = await api.post("/api/User/Register", {
+      const res = await api.post("/api/User/register", {
         Username: formData.username,
         Email: formData.email,
         Password: formData.password,
